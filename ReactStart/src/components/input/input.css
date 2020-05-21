@@ -1,0 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.input_login {
+    font-family: "Roboto", sans-serif;
+    border: 2px solid #ccc;
+    height: 28px;
+    width: 450px;
+    padding: 15px;
+    margin: 10px 0;
+    outline: none;
+}
