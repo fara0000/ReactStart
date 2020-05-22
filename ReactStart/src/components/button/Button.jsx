@@ -10,7 +10,7 @@ class Button extends React.Component {
             className,
             children 
         } = this.props
-        console.log(this.props)
+        
         
         return (
             <button
