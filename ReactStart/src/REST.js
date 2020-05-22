@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const sendGetRequest = cb => {
     const xhr = new XMLHttpRequest();
 
