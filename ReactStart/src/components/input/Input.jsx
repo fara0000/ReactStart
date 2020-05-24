@@ -1,4 +1,5 @@
 import React from 'react';
+import '../input/input.css';
 
 class Input extends React.Component {
     constructor(props) {
@@ -6,12 +7,7 @@ class Input extends React.Component {
     }
 
     render () {
-
-        return (
-            <input
-                {...this.props}
-            />
-        )
+        return < input {...this.props} />
     }
 }
 export default Input;

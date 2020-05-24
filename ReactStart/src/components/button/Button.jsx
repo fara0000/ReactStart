@@ -1,4 +1,5 @@
 import React from 'react';
+import '../button/button.css';
 
 class Button extends React.Component {
     constructor(props) {
@@ -6,17 +7,7 @@ class Button extends React.Component {
     }
 
     render () {
-        const {
-            className,
-            children 
-        } = this.props
-        
-        
-        return (
-            <button
-            className = {className} 
-            > {children} </button>
-        )
+        return <button {...this.props}/> 
     }
 }
 

@@ -1,0 +1,18 @@
+.Login_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 435px;
+    width: 490px;
+    background-color: white;
+    border: 3px solid rgb(138, 130, 130);
+    padding: 10% 2 2;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-top: 100px;
+}
+.login_paraghraph {
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    padding: 4px;
+}

@@ -1,9 +1,10 @@
-export const sendGetRequest = cb => {
-    const xhr = new XMLHttpRequest();
+export const sendPutRequest = (data, cb) => {
+    let xhr = new XMLHttpRequest();
+    let dataInJson = JSON.stringify(data);
 
-    xhr.open("GET", "/getValueOfInputs");
+    xhr.open("PUT", "/add-obj");
     xhr.setRequestHeader("Content-type", "application-json");
-    xhr.send();
+    xhr.send(dataInJson);
 
     xhr.onload = function() {
         if (xhr.status != 200) {
