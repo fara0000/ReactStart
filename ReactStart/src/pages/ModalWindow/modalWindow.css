@@ -16,3 +16,16 @@
     font-size: 15px;
     padding: 4px;
 }
+
+.input {
+    
+}
+.input :active {
+    outline: none;
+}
+.input.green {
+    border: 2px solid green;
+}
+.input.red {
+    border: 2px solid red;
+}
