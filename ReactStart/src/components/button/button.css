@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.button {
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+    color: aliceblue;
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    margin: 5px 0;
+    color: #FFFFFF;
+    background: #4CAF50;
+    border: none;
+    outline: 0;
+}
+
+.button:hover {
+    background-color: rgb(16, 143, 16);
+    color: honeydew;
+}
